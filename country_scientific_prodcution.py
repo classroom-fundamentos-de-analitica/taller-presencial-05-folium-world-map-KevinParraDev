@@ -69,6 +69,7 @@ def plot_world_map(countries):
         key_on="feature.properties.name",
         fill_color="Greens",
     ).add_to(m)
+    
     m.save("map.html")
 
 
