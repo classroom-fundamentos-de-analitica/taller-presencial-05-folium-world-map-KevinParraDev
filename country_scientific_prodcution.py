@@ -59,7 +59,6 @@ def plot_world_map(countries):
     countries = countries.copy()
     countries = countries.to_frame()
     countries = countries.reset_index()
-    countries.columns = ["countries", "count"]
 
     m = folium.Map(location=[0, 0], zoom_start=2)
 
